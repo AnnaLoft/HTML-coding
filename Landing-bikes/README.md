@@ -1,1 +1,1 @@
-https://gena888.github.io/BikeGalary/
+Deploy: https://gracious-pasteur-c46128.netlify.app/

@@ -6,3 +6,4 @@ Just some works to practice and fun:)
 3. Dynamic circles: https://happy-blackwell-11beba.netlify.app/
 4. White Hole: https://infallible-euler-b9db11.netlify.app/
 5. Constellations: https://elastic-fermi-edcc28.netlify.app
+6. Circles intersection: https://youthful-heyrovsky-1b6692.netlify.app/

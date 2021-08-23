@@ -7,3 +7,5 @@ Just some works to practice and fun:)
 4. White Hole: https://infallible-euler-b9db11.netlify.app/
 5. Constellations: https://elastic-fermi-edcc28.netlify.app
 6. Circles intersection: https://youthful-heyrovsky-1b6692.netlify.app/
+7. Bezier Curves Animation v1: https://dreamy-bhabha-aa6ed7.netlify.app/
+8. Bezier Curves Animation v2: https://quizzical-leavitt-547910.netlify.app/

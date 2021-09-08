@@ -20,3 +20,7 @@ Canvas animations:
 MERN-stack app: 
 
 11. English for kids: https://sad-neumann-8be8f7.netlify.app/
+
+JS project: 
+
+12. Photo-filter: https://rolling-scopes-school.github.io/annaloft-JSFE2021Q1/photo-filter/index.html

@@ -1,0 +1,200 @@
+{
+    "sets": {
+        "Action A": {
+            "./images/painter.png": {
+                "./images/cure.png": ["Cure", "Лечить", "./sounds/cure.mp3", "Action A"],
+                "./images/wash.png": ["Wash", "Мыть", "./sounds/wash.mp3", "Action A"],
+                "./images/dance.png": ["Dance", "Танцевать", "./sounds/dance.mp3", "Action A"],
+                "./images/swim.png": ["Swim", "Плавать", "./sounds/swim.mp3", "Action A"],
+                "./images/read.png": ["Read", "Читать", "./sounds/read.mp3", "Action A"],
+                "./images/draw.png": ["Draw", "Рисовать", "./sounds/draw.mp3", "Action A"],
+                "./images/cry.png": ["Cry", "Плакать", "./sounds/cry.mp3", "Action A"],
+                "./images/write.png": ["Write", "Писать", "./sounds/write.mp3", "Action A"]
+                     
+            }
+        },
+        "Action B": { 
+            "./images/unicorn.png": {
+                "./images/wink.png": ["Wink", "Подмигивать", "./sounds/wink.mp3", "Action B"],
+                "./images/eat.png": ["Eat", "Есть", "./sounds/eat.mp3", "Action B"],
+                "./images/kiss.png": ["Kiss", "Целовать", "./sounds/kiss.mp3", "Action B"],
+                "./images/buy.png": ["Buy", "Покупать", "./sounds/buy.mp3", "Action B"],
+                "./images/joy.png": ["Joy", "Радоваться", "./sounds/joy.mp3", "Action B"],
+                "./images/argue.png": ["Argue", "Спорить", "./sounds/argue.mp3", "Action B"],
+                "./images/greet.png": ["Greet", "Приветствовать", "./sounds/greet.mp3", "Action B"],
+                "./images/think.png": ["Think", "Думать", "./sounds/think.mp3", "Action B"]  
+            }
+        },
+        "Food": {
+            "./images/diet.png": {
+                "./images/cupcake.png": ["cupcake", "кекс", "./sounds/cupcake.mp3", "Food"],
+                "./images/bread.png": ["bread", "хлеб", "./sounds/bread.mp3", "Food"],
+                "./images/blueberries.png": ["blueberries", "черника", "./sounds/blueberries.mp3", "Food"],
+                "./images/pizza.png": ["pizza", "пицца", "./sounds/pizza.mp3", "Food"],
+                "./images/noodles.png": ["noodles", "лапша", "./sounds/noodles.mp3", "Food"],
+                "./images/meat.png": ["meat", "мясо", "./sounds/meat.mp3", "Food"],
+                "./images/broccoli.png": ["broccoli", "броколи", "./sounds/broccoli.mp3", "Food"],
+                "./images/orange.png": ["orange", "апельсин", "./sounds/orange.mp3", "Food"]  
+            }
+        },
+        "Dishes": {
+            "./images/dish.png": {
+                "./images/fork.png": ["Fork", "Вилка", "./sounds/fork.mp3", "Dishes"],
+                "./images/spoon.png": ["Spoon", "Ложка", "./sounds/spoon.mp3", "Dishes"],
+                "./images/knife.png": ["Knife", "Нож", "./sounds/knife.mp3", "Dishes"],
+                "./images/mug.png": ["Mug", "Кружка", "./sounds/mug.mp3", "Dishes"],
+                "./images/plate.png": ["Plate", "Тарелка", "./sounds/plate.mp3", "Dishes"],
+                "./images/pan.png": ["Pan", "Сковорода", "./sounds/pan.mp3", "Dishes"],
+                "./images/teapot.png": ["Teapot", "Чайник", "./sounds/teapot.mp3", "Dishes"],
+                "./images/glass.png": ["Glass", "Стакан", "./sounds/glass.mp3", "Dishes"]  
+            }
+        },
+        
+        "Pets": {
+            "./images/pet.png": {
+                "./images/parrot.png": ["Parrot", "Попугай", "./sounds/parrot.mp3", "Pets"],
+                "./images/turtle.png": ["Turtle", "Черепаха", "./sounds/turtle.mp3", "Pets"],
+                "./images/cat.png": ["Cat", "Кот", "./sounds/cat.mp3", "Pets"],
+                "./images/hamster.png": ["Hamster", "Хомяк", "./sounds/hamster.mp3", "Pets"],
+                "./images/dog.png": ["Dog", "Собака", "./sounds/dog.mp3", "Pets"],
+                "./images/rabbit.png": ["Rabbit", "Кролик", "./sounds/rabbit.mp3", "Pets"],
+                "./images/fish.png": ["Fish", "Рыба", "./sounds/fish.mp3", "Pets"],
+                "./images/frog.png": ["Frog", "Лягушка", "./sounds/frog.mp3", "Pets"]  
+            }
+        },
+        "Animals": {
+            "./images/chick.png": {
+                "./images/horse.png": ["Horse", "Лошадь", "./sounds/horse.mp3", "Animals"],
+                "./images/chicken.png": ["Chicken", "Курица", "./sounds/chicken.mp3", "Animals"],
+                "./images/giraffe.png": ["Giraffe", "Жираф", "./sounds/giraffe.mp3", "Animals"],
+                "./images/cow.png": ["Cow", "Корова", "./sounds/cow.mp3", "Animals"],
+                "./images/lion.png": ["Lion", "Лев", "./sounds/lion.mp3", "Animals"],
+                "./images/pig.png": ["Pig", "Свинья", "./sounds/pig.mp3", "Animals"],
+                "./images/sheep.png": ["Sheep", "Овечка", "./sounds/sheep.mp3", "Animals"],
+                "./images/dolphin.png": ["Dolphin", "Дельфин", "./sounds/dolphin.mp3", "Animals"]
+            }
+        },
+        
+        "Clothes": {
+            "./images/clothes.png": {
+                "./images/shirt.png": ["Shirt", "Рубашка", "./sounds/shirt.mp3", "Clothes"],
+                "./images/pants.png": ["Pants", "Штаны", "./sounds/pants.mp3", "Clothes"],
+                "./images/skirt.png": ["Skirt", "Юбка", "./sounds/skirt.mp3", "Clothes"],
+                "./images/coat.png": ["Coat", "Пальто", "./sounds/coat.mp3", "Clothes"],
+                "./images/dress.png": ["Dress", "Платье", "./sounds/dress.mp3", "Clothes"],
+                "./images/shoe.png": ["Shoe", "Туфли", "./sounds/shoe.mp3", "Clothes"],
+                "./images/boot.png": ["Boot", "Ботинок", "./sounds/boot.mp3", "Clothes"],
+                "./images/blouse.png": ["Blouse", "Блузка", "./sounds/blouse.mp3", "Clothes"]  
+            }
+        },
+        "Emotion": {
+            "./images/emotions.png": {
+                "./images/angry.png": ["Angry", "Сердитый", "./sounds/angry.mp3", "Emotion"],
+                "./images/smile.png": ["Smile", "Улыбающийся", "./sounds/smile.mp3", "Emotion"],
+                "./images/sad.png": ["Sad", "Грустный", "./sounds/sad.mp3", "Emotion"],
+                "./images/scared.png": ["Scared", "Испуганный", "./sounds/scared.mp3", "Emotion"],
+                "./images/laugh.png": ["Laugh", "Смеющийся", "./sounds/laugh.mp3", "Emotion"],
+                "./images/tired.png": ["Tired", "Уставший", "./sounds/tired.mp3", "Emotion"],
+                "./images/happy.png": ["Happy", "Счастливый", "./sounds/happy.mp3", "Emotion"],
+                "./images/surprised.png": ["Surprised", "Удивленный", "./sounds/surprised.mp3", "Emotion"]  
+            }
+        },
+        "Body": {
+            "./images/anatomy.png": {
+                "./images/leg.png": ["Leg", "Нога", "./sounds/leg.mp3", "Body"],
+                "./images/arm.png": ["Arm", "Рука", "./sounds/arm.mp3", "Body"],
+                "./images/head.png": ["Head", "Голова", "./sounds/head.mp3", "Body"],
+                "./images/hand.png": ["Hand", "Ладонь", "./sounds/hand.mp3", "Body"],
+                "./images/mouth.png": ["Mouth", "Рот", "./sounds/mouth.mp3", "Body"],
+                "./images/eye.png": ["Eye", "Глаз", "./sounds/eye.mp3", "Body"],
+                "./images/foot.png": ["Foot", "Стопа", "./sounds/foot.mp3", "Body"],
+                "./images/neck.png": ["Neck", "Шея", "./sounds/neck.mp3", "Body"]  
+            }
+        },
+        "Space": {
+            "./images/solar-system.png": {
+                "./images/sun.png": ["Sun", "Солнце", "./sounds/sun.mp3", "Space"],
+                "./images/comet.png": ["Comet", "Комета", "./sounds/comet.mp3", "Space"],
+                "./images/earth.png": ["Earth", "Земля", "./sounds/earth.mp3", "Space"],
+                "./images/venus.png": ["Venus", "Венера", "./sounds/venus.mp3", "Space"],
+                "./images/astronaut.png": ["Astronaut", "Астронавт", "./sounds/astronaut.mp3", "Space"],
+                "./images/meteorite.png": ["Meteorite", "Метеорит", "./sounds/meteorite.mp3", "Space"],
+                "./images/space-ship.png": ["Space ship", "Космический корбаль", "./sounds/space-ship.mp3", "Space"],
+                "./images/milky-way.png": ["Milky Way", "Млечный путь", "./sounds/milky-way.mp3", "Space"]  
+            }
+        },
+        "Music": {
+            "./images/music.png": {
+                "./images/domra.png": ["Domra", "Домра", "./sounds/domra.mp3", "Music"],
+                "./images/accordion.png": ["Accordion", "Аккордеон", "./sounds/accordion.mp3", "Music"],
+                "./images/violin.png": ["Violin", "Скрипка", "./sounds/violin.mp3", "Music"],
+                "./images/cornet.png": ["Cornet", "Корнет", "./sounds/cornet.mp3", "Music"],
+                "./images/guitar.png": ["Guitar", "Гитара", "./sounds/guitar.mp3", "Music"],
+                "./images/drums.png": ["Drums", "Барабаны", "./sounds/drums.mp3", "Music"],
+                "./images/piano.png": ["Piano", "Фортепиано", "./sounds/piano.mp3", "Music"],
+                "./images/xylophone.png": ["Xylophone", "Ксилофон", "./sounds/xylophone.mp3", "Music"]  
+            }
+        },
+        "Profession": {
+            "./images/job.png": {
+                "./images/doctor.png": ["Doctor", "Доктор", "./sounds/doctor.mp3", "Profession"],
+                "./images/programmer.png": ["Programmer", "Программист", "./sounds/programmer.mp3", "Profession"],
+                "./images/scientist.png": ["Scientist", "Ученый", "./sounds/scientist.mp3", "Profession"],
+                "./images/teacher.png": ["Teacher", "Учитель", "./sounds/teacher.mp3", "Profession"],
+                "./images/builder.png": ["Builder", "Строитель", "./sounds/builder.mp3", "Profession"],
+                "./images/nurse.png": ["Nurse", "Медсестра", "./sounds/nurse.mp3", "Profession"],
+                "./images/chef.png": ["Chef", "Шеф-повар", "./sounds/chef.mp3", "Profession"],
+                "./images/sailor.png": ["Sailor", "Моряк", "./sounds/sailor.mp3", "Profession"]  
+            }
+        },
+        "Weather": {
+            "./images/weather.png": {
+                "./images/wind.png": ["Wind", "Ветер", "./sounds/wind.mp3", "Weather"],
+                "./images/rainbow.png": ["Rainbow", "Радуга", "./sounds/rainbow.mp3", "Weather"],
+                "./images/rain.png": ["Rain", "Дождь", "./sounds/rain.mp3", "Weather"],
+                "./images/sunny.png": ["Sunny", "Солнечно", "./sounds/sunny.mp3", "Weather"],
+                "./images/snow.png": ["Snow", "Снег", "./sounds/snow.mp3", "Weather"],
+                "./images/hot.png": ["Hot", "Жара", "./sounds/hot.mp3", "Weather"],
+                "./images/thunder.png": ["Thunder", "Гром", "./sounds/thunder.mp3", "Weather"],
+                "./images/cold.png": ["Cold", "Холод", "./sounds/cold.mp3", "Weather"]  
+            }
+        },
+        "Tales": {
+            "./images/magic-book.png": {
+                "./images/witch.png": ["witch", "Ведьма", "./sounds/witch.mp3", "Tales"],
+                "./images/prince.png": ["Prince", "Принц", "./sounds/prince.mp3", "Tales"],
+                "./images/fairy.png": ["Fairy", "Фея", "./sounds/fairy.mp3", "Tales"],
+                "./images/elf.png": ["Elf", "Эльф", "./sounds/elf.mp3", "Tales"],
+                "./images/knight.png": ["Knight", "Рыцарь", "./sounds/knight.mp3", "Tales"],
+                "./images/king.png": ["King", "Король", "./sounds/king.mp3", "Tales"],
+                "./images/princess.png": ["Princess", "Принцесса", "./sounds/princess.mp3", "Tales"],
+                "./images/goblin.png": ["Goblin", "Гоблин", "./sounds/goblin.mp3", "Tales"]  
+            }
+        },
+        "Beverages": {
+            "./images/beverage.png": {
+                "./images/water.png": ["Water", "Вода", "./sounds/water.mp3", "Beverages"],
+                "./images/juice.png": ["Juice", "Сок", "./sounds/juice.mp3", "Beverages"],
+                "./images/milk.png": ["Milk", "Молоко", "./sounds/milk.mp3", "Beverages"],
+                "./images/tea.png": ["Tea", "Чай", "./sounds/tea.mp3", "Beverages"],
+                "./images/coffee.png": ["Coffee", "Кофе", "./sounds/coffee.mp3", "Beverages"],
+                "./images/lemonade.png": ["Lemonade", "Лимонад", "./sounds/lemonade.mp3", "Beverages"],
+                "./images/cacao.png": ["Cacao", "Какао", "./sounds/cacao.mp3", "Beverages"],
+                "./images/milkshake.png": ["Milkshake", "Молочный коктейль", "./sounds/milkshake.mp3", "Beverages"]  
+            }
+        },
+        "Nature": {
+            "./images/nature.png": {
+                "./images/tree.png": ["Tree", "Дерево", "./sounds/tree.mp3", "Tree"],
+                "./images/grass.png": ["Grass", "Трава", "./sounds/grass.mp3", "Nature"],
+                "./images/lake.png": ["Lake", "Озеро", "./sounds/lake.mp3", "Nature"],
+                "./images/mountain.png": ["Mountain", "Гора", "./sounds/mountain.mp3", "Nature"],
+                "./images/waterfall.png": ["Waterfall", "Водопад", "./sounds/waterfall.mp3", "Nature"],
+                "./images/wave.png": ["Wave", "Волна", "./sounds/wave.mp3", "Nature"],
+                "./images/stone.png": ["Stone", "Камень", "./sounds/stone.mp3", "Nature"],
+                "./images/flower.png": ["Flower", "Цветок", "./sounds/flower.mp3", "Nature"]  
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,209 @@
+
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Caveat"),
+       url("./fonts/Caveat-Regular.woff") format("woff"),
+}
+
+
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Indie Flower"),
+       url("./fonts/IndieFlower-Regular.woff") format("woff"),
+}
+
+
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Amatic SC"),
+       url("./fonts/AmaticSC-Regular.ttf") format("woff"),
+}
+
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal; 
+  font-weight: 700;
+  src: local("Amatic SC"),
+       url("./fonts/AmaticSC-Regular.ttf") format("woff"),
+}
+body {
+  margin: 0;
+  font-family: 'Indie Flower', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Caveat', cursive;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+img {
+  vertical-align: top;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+/*Media-query*/
+
+:root {
+  --cards-size: 160px;
+  --my-grid-template-columns: 1fr 1fr 1fr 1fr;
+  --cards-text-size: 40px;
+  --pic-width: 25px;
+  --result-game-image-width: 150px;
+  --nav-panel-height: calc(1200px - 12em);
+}
+
+@media (max-width:320px) {
+  :root {
+    --cards-size: 270px;
+    --my-grid-template-columns: 1fr;
+    --nav-panel-width: 100%;
+    --cards-text-size: 40px;
+    --pic-width: 40px;
+  }
+}
+
+@media (min-width:321px) and (max-width: 500px) {
+  :root {
+    --cards-size: 260px;
+    --my-grid-template-columns: 1fr;
+    --pic-width: 40px;
+    --nav-panel-width: 100%;
+    --result-game-image-width: 200px;
+  }
+}
+
+@media (min-width: 501px) and (max-width:767px) {
+  :root {
+    --cards-size: 210px;
+    --my-grid-template-columns: 1fr 1fr;
+    --nav-panel-width: 25%;
+    --cards-text-size: 28px;
+    --pic-width: 30px;
+    --result-game-image-width: 300px;
+   
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  :root {
+    --cards-size: 170px;
+    --my-grid-template-columns: 1fr 1fr 1fr 1fr;
+    --nav-panel-width: 17%;
+    --cards-text-size: 16px;
+    --pic-width: 22px;
+    --result-game-image-width: 350px;
+    --nav-panel-height: calc(1000px - 12em);
+    
+    
+  }
+}
+
+@media (min-width:992px) and (max-width:1439px) {
+  :root {
+    --cards-size: 200px;
+    --my-grid-template-columns: 1fr 1fr 1fr 1fr;
+    --nav-panel-width: 11%;
+    --cards-text-size: 24px;
+    --result-game-image-width: 400px;
+    
+  }
+}
+
+@media (min-width:1440px)and (max-width:1920px) {
+  :root {
+    --cards-size: 300px;
+    --my-grid-template-columns: 1fr 1fr 1fr 1fr;
+    --nav-panel-width: 11%;
+    --pic-width: 45px;
+    --result-game-image-width: 500px;
+
+    
+  }
+}
+
+@media (min-width:1921px) {
+  :root {
+    --cards-size: 350px;
+    --my-grid-template-columns: 1fr 1fr 1fr 1fr;
+    --nav-panel-width: 9%;
+    --pic-width: 70px;
+    --result-game-image-width: 600px;
+  }
+}

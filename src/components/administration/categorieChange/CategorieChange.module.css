@@ -1,0 +1,17 @@
+.categories {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: var(--my-grid-template-columns);
+row-gap: 20px;
+margin: 30px auto;
+  padding-bottom: 30px;
+  align-items: center;
+  text-transform: capitalize;
+  justify-content: space-around;
+  color: #fffffc;
+  
+
+}
+
+

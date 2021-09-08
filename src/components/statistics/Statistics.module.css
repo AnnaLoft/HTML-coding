@@ -1,0 +1,278 @@
+.categories {
+  display: block;
+  margin-left: 30px;
+}
+
+
+.category {
+  margin: 0 auto;
+  display: flex;
+  color:#fff;
+  place-content: center;
+  margin-top: 10px;
+  /* border-bottom: 1px solid #ffadad; */
+  width: 100%;
+  min-width: 600px;
+  user-select: none;
+  /* cursor: pointer; */
+}
+
+.categoryName {
+  width: 100%;
+  /* min-width: 200px; */
+  display: flex;
+  color: #ffc6ff;
+  font-size: 26px;
+  justify-content: center;
+  margin: auto 0;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+
+
+.categoryName__text {
+  margin-bottom: 5px;
+  
+}
+
+.categoryName__img {
+  width: 80%;
+  border-radius: 20%;
+  pointer-events: none;
+}
+
+.categoryWords {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.categotyWord {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* min-height: 100px; */
+
+  background: linear-gradient(0deg, rgb(255, 173, 173), rgb(255, 214, 165) 100%);
+  padding: 10px;
+  /* border-radius: 10%; */
+  border-right:1px solid #ffadad;
+  border-left:1px solid #ffadad;
+}
+
+
+.categoryStatiscics, .categoryWordNames {
+  padding-left: 10%;
+  
+}
+
+.categoryWordNames{
+  border-bottom: #ffadad 1px solid;
+
+}
+
+
+.categoryStatiscics div, .categoryWordNames div {
+  padding-bottom: 3px;
+  font-weight: 500;
+  /* color: #f2f2f2; */
+}
+
+.categoryWords0_3, .categoryWords4_8 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.categoryWords0_3 div, .categoryWords4_8 div {
+  width: 40%;
+}
+
+.btns {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resetBtn {
+  margin-right: 20px;
+}
+
+.repeatBtn button {
+
+}
+
+.categoryStatiscics {}
+
+.categoryWordName, .categoryTranslate, .clicksStatiscics, .rightStatiscics, .whrongStatiscics, .precentStatiscics {
+  cursor: pointer;
+  transition: .3s;
+}
+
+.categoryWordName:hover, .categoryTranslate:hover, .clicksStatiscics:hover, .rightStatiscics:hover, .whrongStatiscics:hover, .precentStatiscics:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  -moz-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+}
+
+
+
+.preloader {
+  /*фиксированное позиционирование*/
+  position: fixed;
+  /* координаты положения */
+  left: 200px;
+  top: 6em;
+  right:200px;
+  bottom: 6em;
+  /* фоновый цвет элемента */
+  background: #ffffff;
+  /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
+  z-index: 1001;
+}
+
+.preloader__row {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+  text-align: center;
+  animation: preloader-rotate 2s infinite linear;
+}
+
+.preloader__item {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  background-color: #ffadad;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  animation: preloader-bounce 2s infinite ease-in-out;
+}
+
+.preloader__item:last-child {
+  top: auto;
+  bottom: 0;
+  animation-delay: -1s;
+}
+
+@keyframes preloader-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes preloader-bounce {
+
+  0%,
+  100% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
+
+.card_name,
+.card_translate{
+  height: 30px;
+  margin-right: 10px;
+}
+
+.categoryWordNames{
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; */
+}
+
+.categoryTranslate{
+  font-family: 'Amatic SC', cursive;
+  margin-left: 58px;
+  margin-top: -47px;
+  border-bottom: #ffadad 1px solid;
+}
+
+
+@media (max-width:600px) {
+  .categories {
+    width: 600px;
+  }
+}
+
+@media (max-width:1000px) {
+  .categoryWords {
+    flex-wrap: wrap;
+  }
+  .categoryWords0_3 {
+    margin-bottom: 10px;
+  }
+  .categoryWords0_3 div, .categoryWords4_8 div {
+    width: 24%;
+  }
+}
+
+@media (min-width:1800px) {
+  .categoryStatiscics div, .categoryWordNames div {
+    font-size: 16px;
+  }
+}
+
+@media (min-width:3000px) {
+  .categoryStatiscics div, .categoryWordNames div {
+    font-size: 30px;
+  }
+  .categoryName__text {
+    font-size: 30px;
+  }
+  .category {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width:4000px) {
+  .categoryStatiscics div, .categoryWordNames div {
+    font-size: 40px;
+  }
+  .categoryName__text {
+    font-size: 40px;
+  }
+  .category {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width:5000px) {
+  .categoryStatiscics div, .categoryWordNames div {
+    font-size: 50px;
+  }
+  .categoryName__text {
+    font-size: 50px;
+  }
+  .category {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}

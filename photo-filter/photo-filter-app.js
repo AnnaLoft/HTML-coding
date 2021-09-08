@@ -1,4 +1,4 @@
-// window.alert("Здравствуйте! Основной функционал по ТЗ работает в полной мере. Дополнительный функционал фильтров доработаю в ближайшее время, не оценивайте его пока, пожалуйста!")
+
 window.addEventListener('DOMContentLoaded', () => {
     // Active mode for buttons
     function activeButtons() {

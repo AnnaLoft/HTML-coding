@@ -24,3 +24,4 @@ MERN-stack app:
 JS project: 
 
 12. Photo-filter: https://rolling-scopes-school.github.io/annaloft-JSFE2021Q1/photo-filter/index.html
+13. Piano: https://rolling-scopes-school.github.io/annaloft-JSFE2021Q1/piano/

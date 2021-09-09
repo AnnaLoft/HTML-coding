@@ -1,0 +1,19 @@
+@import url(./garage.css);
+@import url(./winners.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&family=Mulish:wght@300;500;700&display=swap');
+
+
+body {
+  background-color: rgb(24 23 26);
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(240, 248, 255);
+  padding: 30px;
+}
+
+h2{
+  font-size: 2rem;
+  text-align: center;
+  margin-top: -10px;
+  font-weight: 100;
+}

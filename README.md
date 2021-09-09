@@ -1,11 +1,11 @@
 # Portfolio
-Just some works to practice and fun :)
+### Just some works to practice and fun :)
 
 1. Landing Page for vintage bicycle shop: https://gracious-pasteur-c46128.netlify.app/
 2. Sound Visualization: https://relaxed-wing-6ca0bc.netlify.app
 
 
-Canvas animations:
+### Canvas animations:
 
 3. Triangle Mesh Background: https://laughing-cray-4af06d.netlify.app/
 4. Dynamic circles: https://happy-blackwell-11beba.netlify.app/
@@ -17,18 +17,18 @@ Canvas animations:
 10. Bezier Curves Animation v3: https://quizzical-leavitt-547910.netlify.app/
 
 
-MERN-stack app: 
+### MERN-stack app: 
 
 11. English for kids: https://sad-neumann-8be8f7.netlify.app/
 
-JS project: 
+### JS project: 
 
 12. Photo-filter: https://rolling-scopes-school.github.io/annaloft-JSFE2021Q1/photo-filter/index.html
 13. Piano: https://rolling-scopes-school.github.io/annaloft-JSFE2021Q1/piano/
 
 
-14. Async Race: 
+### Async Race: 
 
   *Task: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md*
   
-  *My solution: https://github.com/AnnaLoft/Portfolio/tree/main/async-race*
+  14. My solution: https://github.com/AnnaLoft/Portfolio/tree/main/async-race

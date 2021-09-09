@@ -26,7 +26,7 @@ JS project:
 12. Photo-filter: https://rolling-scopes-school.github.io/annaloft-JSFE2021Q1/photo-filter/index.html
 13. Piano: https://rolling-scopes-school.github.io/annaloft-JSFE2021Q1/piano/
 
-Async Race: 
+14. Async Race: 
 
   Task: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md
   

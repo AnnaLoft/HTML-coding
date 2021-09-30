@@ -41,6 +41,10 @@ body {
     display: none;
 }
 
+.visible{
+    visibility: hidden;
+}
+
 /* =============== lot-card ===============*/
 
 .lot-card {
@@ -537,9 +541,9 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 }
 
 .user-communication__item {
-    width: 73px;
+    width: 85px;
     height: 56px;
-    margin-right: 16px;
+    /* margin-right: 16px; */
 }
 
 .user-communication {
@@ -950,7 +954,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
         margin-right: 30px;
     }
     .user-communication__item {
-        margin-right: 27px;
+        
         margin-left: 9px;
     }
     .icon-group__rating {

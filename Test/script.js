@@ -68,11 +68,31 @@ function changeImageHeartIcon() {
 }
 
 function changeSub() {
-  let hiddenIcon = document.getElementById("subHidden")
+  let mainBtn = document.getElementById("subBtn");
+  let hiddenIcon = document.getElementById("subHidden");
+  let subText = document.getElementById("subscrib-text");
+  mainBtn.classList.toggle('visible');
   hiddenIcon.classList.toggle('sub-avtive')
+  if (subText.innerHTML === "Вы подписаны") {
+    subText.innerHTML="Подписаться"
+  }
+  else { subText.innerHTML="Вы подписаны"
+
+  };
 }
 
 function changeFav() {
-  let hiddenIcon = document.getElementById("favHidden")
-  hiddenIcon.classList.toggle('sub-avtive')
+  let mainBtn = document.getElementById("favBtn");
+  let hiddenIcon = document.getElementById("favHidden");
+  let favText = document.getElementById("fav-text");
+
+  hiddenIcon.classList.toggle('sub-avtive');
+  mainBtn.classList.toggle('visible');
+
+  if (favText.innerHTML === "В избранное") {
+    favText.innerHTML="В избранном"
+  }
+  else { favText.innerHTML="В избранное"
+
+  };
 }

@@ -45,6 +45,13 @@ body {
     visibility: hidden;
 }
 
+.getBorder {
+    border: 2px solid #4A80AA !important;
+}
+.nonBorder{
+    border: none;
+}
+
 /* =============== lot-card ===============*/
 
 .lot-card {
@@ -129,7 +136,7 @@ body {
 
 .lot-pic {
     border-radius: 6px;
-    border: 2px solid #4A80AA;
+    /* border: 2px solid #4A80AA; */
     background-image: url(../assets/images/lot-img.png);
     background-size: cover;
     Width: 80px;

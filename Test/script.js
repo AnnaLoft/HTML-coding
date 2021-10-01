@@ -96,3 +96,36 @@ function changeFav() {
 
   };
 }
+
+
+function getBorder() {
+  let mainFrame = document.getElementById('mainPicture');
+  let firstItem = document.getElementById('first-item');
+  let secondItem = document.getElementById('second-item');
+  let thirdItem = document.getElementById('third-item');
+  let fourthItem = document.getElementById('fourth-item');
+ document.querySelectorAll('.lot-pic').forEach(item =>{
+   item.addEventListener('click', event => {
+    Array.from(document.getElementsByClassName("lot-pic")).map(i => {
+      i.classList.remove('getBorder'); 
+    });
+    item.classList.add('getBorder');
+   })
+ })
+
+ firstItem.addEventListener('click', event => {
+  mainFrame.src="./assets/images/lot-img.png";
+ });
+
+secondItem.addEventListener('click', event => {
+  mainFrame.src="./assets/images/coins.png";
+ });
+
+ thirdItem.addEventListener('click', event => {
+  mainFrame.src="./assets/images/rublo-ruso-monedas.png.jpg";
+ });
+
+ fourthItem.addEventListener('click', event => {
+  mainFrame.src="./assets/images/world-coins-assorted-chinese-rmb-taiwan-yuan-india-rupee-mexican-peso-british-pound-euro-us-dollar-47021010.jpg";
+ });
+}

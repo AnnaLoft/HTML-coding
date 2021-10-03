@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+  background-color: #333;
+  color: #fff;
+}
+
+a, span {
+  text-decoration: none;
+  background: transparent;
+}
+
+i {
+  opacity: .5;
+}
+
+h1 {
+  letter-spacing: .4px;
+  font-weight: 500;
+}
+
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  color: #fff;
+}
+
+.coin-search {
+  margin-bottom: 35px;
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.coin-text {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.coin-input {
+  padding-left: 16px;
+  outline: none;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  background-color: #474747;
+  border-radius: 30px;
+  opacity: .5;
+  color: #e2e2e2;
+  letter-spacing: 1px;
+}
+
+.input-wrapper {
+  width: 100%;
+  margin: 0 0 -10px;
+  display: flex;
+  flex: 0 1 100%;
+  flex-direction: row;
+  padding: 0 .5rem;
+  margin: 4px 2.5rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgba(0, 0, 0, .3);
+  border: 1px solid hsla(0, 0%, 100%, .2);
+  -webkit-backdrop-filter: blur(45px);
+  backdrop-filter: blur(45px);
+  border-radius: 20px;
+  box-shadow: -2px 3px 20px rgb(0 0 0 / 41%);
+}
+
+.button-container {
+  background: transparent;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttons-wrapper {
+  background: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+  justify-content: space-around;
+}
+
+.search-img {
+  width: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: .5rem;
+  margin-left: 5px;
+  background: transparent;
+}
+
+.coin-input {
+  background: transparent;
+  outline: none;
+  border: none;
+  flex: 0 1 100%;
+  height: 100%;
+  padding: .8rem .6rem .8rem 0;
+  font-size: 14px;
+  line-height: 14px;
+  opacity: .5;
+  margin-left: 5px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.search-pic {
+  background: transparent;
+}
+
+.coins-table {
+  margin: .4rem 40px 60px;
+  background: rgba(0, 0, 0, .3);
+  padding: 35px 0px;
+  border: 1px solid hsla(0, 0%, 100%, .2);
+  border-radius: 20px;
+  justify-content: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: -webkit-fill-available;
+}
+
+.coin-refresh {
+  box-sizing: border-box;
+  color: #fff;
+  padding: 12px 8rem;
+  width: 370px;
+  margin: 50px auto 0;
+  background: hsla(0, 0%, 44.7%, .3);
+  border: 1px solid hsla(0, 0%, 100%, .2);
+  box-shadow: 6px 6px 13px rgb(0 0 0 / 25%);
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.coin-refresh:hover {
+  background: hsla(0, 0%, 44.7%, .15);
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background: transparent;
+  padding: 0px 40px;
+  opacity: .5;
+}
+
+.categorie {
+  background: transparent;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.name_wrapper {
+  /* margin: 0px 0px 0px 60px; */
+  flex: 0 0 19.6%;
+  padding-left: 23px;
+}
+
+.volume_wrapper {
+  flex: 0 0 18.8%;
+}
+
+.price_wrapper {
+  flex: 0 0 17.8%;
+}
+
+.percentage_wrapper {
+  flex: 0 0 24.8%;
+}
+
+.input-panel {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid hsla(0, 0%, 100%, .2);
+  border-radius: 20px;
+  margin: 0px 40px 0px;
+  background: rgba(0, 0, 0, .3);
+  padding: 35px;
+}
+
+@media (max-width:1270px) {
+.coin-refresh{
+  padding: 12px 3rem;
+  width: 250px;
+}
+}
+
+@media (max-width:1000px) {
+  .coin-refresh{
+    padding: 12px 3rem;
+    width: 900px;
+    margin: 20px auto 0;
+  }
+  .buttons-wrapper{
+    flex-flow: column;
+  }
+  .input-panel{
+    padding: 20px;
+  }
+ 
+  
+  }
+
+  @media (max-width:554px){
+    .input-wrapper {
+      width: 76%;
+    }
+
+  }
+  

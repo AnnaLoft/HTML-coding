@@ -32,3 +32,6 @@
   *Task: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md*
   
   14. My solution: https://github.com/AnnaLoft/Portfolio/tree/main/async-race
+
+### React Landing
+15. https://benevolent-unicorn-4cd88b.netlify.app/

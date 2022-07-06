@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap');
+
+@font-face {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400, 700;
+
+    src: local('Trebuchet MS'),
+
+        url('../assets/trebuc.ttf') format("ttf")
+}
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --card-bg: #f2f2f2;
+    --subtitle: #666666;
+    --special: #1698d9;
+    --special-hover: #2ea8e6;
+    --selected: #d91667;
+    --selected-hover: #e52e7a;
+    --disabled-text: #ffff66;
+
+}
+
+body {
+    font-family: 'Trebuchet MS';
+    color: var(--white);
+    min-height: 100vh;
+    background-image: url(../assets/Pattern.png);
+    background-size: cover;
+    box-shadow: inset 0px 0px 200px 0px var(--black);
+    display: flex;
+    place-items: center;
+    justify-content: center;
+
+
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 10px;
+}
+
+/* ==================main container's properties================== */
+.container {
+    display: flex;
+    gap: 24px;
+    padding: 36px 80px;
+    flex-direction: column;
+}
+
+/* =============================header============================= */
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.header-title {
+    font-family: 'Exo 2';
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 100;
+    color: var(--white);
+    text-shadow: 0px 1px 1px var(--black);
+    text-align: center;
+}
+
+/* ==============================cards============================== */
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+    place-content: center;
+    
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.card-body {
+    background: var(--card-bg);
+    border-radius: 12px;
+    position: relative;
+    width: 320px;
+    cursor: pointer;
+    height: 480px;
+    background: linear-gradient(135deg, transparent 30px, var(--card-bg) 0);
+
+}
+
+.card-border {
+    border-radius: 12px;
+    background-color: var(--special);
+    width: 320px;
+    height: 480px;
+
+    padding: 4px;
+    background: linear-gradient(135deg, transparent 30px, var(--special) 0);
+
+
+}
+
+
+.link-txt {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: var(--white);
+    text-align: center;
+}
+
+.buy-link {
+    cursor: pointer;
+    color: var(--special);
+    border-bottom: 1px dashed var(--special);
+    transition: .3s linear;
+}
+
+.card__text-container {
+    padding: 21px 51px;
+}
+
+.card-name {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: var(--subtitle);
+    margin-bottom: 5px;
+}
+
+.product-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: var(--black);
+}
+
+.product-props {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--black);
+}
+
+.product-amount-wrapper p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--subtitle);
+}
+
+.add-info span {
+    font-weight: 700;
+}
+
+.product-description-wrapper {
+    margin-bottom: 15px;
+}
+
+.card-pic {
+    background-image: url(../assets/Object.png);
+    width: 320px;
+    height: 480px;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.product-size {
+    width: 80px;
+    height: 80px;
+    background-color: var(--special);
+    border-radius: 50%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: .2s linear;
+    margin: 16px;
+
+}
+
+.size {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 22px;
+}
+
+.size-unit {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.product-size p {
+    text-align: center;
+}
+
+.producct-size__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 12px;
+    gap: 10px;
+}
+
+.disable {
+    font-family: 'Exo 2';
+    width: min-content;
+    white-space: nowrap;
+    align-self: center;
+    background: transparent;
+    border: none;
+    color: var(--white);
+    transition: .3s linear;
+}
+.disabled-notify{
+    font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+color: var(--disabled-text) !important;
+text-align: center;
+
+}
+
+
+/* ====================behaviour==================== */
+.disable:hover,
+.buy-link:hover{
+    color: var(--special-hover);
+}
+
+.card-wrapper:hover .product-size{
+    background: var(--special-hover);
+}
+.card-wrapper:hover .card-border{
+    background: linear-gradient(135deg, transparent 30px, var(--special-hover) 0);
+}
+.card-wrapper.active .product-size{
+    background: var(--selected);
+}
+.card-wrapper.active .card-border{
+    background: linear-gradient(135deg, transparent 30px, var(--selected) 0);
+}
+.card-wrapper.active:hover .product-size{
+    background: var(--selected-hover);
+}
+.card-wrapper.card-wrapper.active:hover .card-border{
+    background: linear-gradient(135deg, transparent 30px, var(--selected-hover) 0);
+}
+.card-wrapper.disabled .card-border{
+    filter: grayscale(100%);
+    pointer-events: none;
+
+}
+
+/* ===============adaptive=============== */
+
+@media (max-width:1000px) {
+    .cards-container {
+        gap: 40px;
+    }
+}

@@ -1,12 +1,14 @@
 import React, { useEffect} from "react";
 import { useSelector, useDispatch } from "react-redux";
+import { selectIp } from "../features/ip/ipSlice";
 import { updateRemoteLocation, selectCity } from "../features/ip/locationSlice";
 
 const LocationInput = function () {
     const locationInfo = useSelector(selectCity);
+    const ipInfo = useSelector(selectIp);
     const dispatch = useDispatch();
     useEffect(() => {
-        dispatch(updateRemoteLocation());
+        dispatch(updateRemoteLocation(ipInfo));
     }, []);
     return (
       

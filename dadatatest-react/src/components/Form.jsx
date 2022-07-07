@@ -26,7 +26,7 @@ const FieldLevelValidationForm = props => {
     return (
         <form className="filter" onSubmit={() => false}>
             <p className="bold-txt form-header">Указать локацию вручную:</p>
-            <AddressSuggestions customInput={Inp}  type="text"  className="input loaction-info__data"   token="3ec2b42c32789f092783bb2cb9f0a6d372ec29fe" value={value} onChange={setValue}></AddressSuggestions>
+            <AddressSuggestions customInput={Inp} count={25}  type="text"  className="input loaction-info__data"   token="3ec2b42c32789f092783bb2cb9f0a6d372ec29fe" value={value} onChange={setValue}></AddressSuggestions>
 
         </form>
     )
